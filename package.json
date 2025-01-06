@@ -1,0 +1,33 @@
+{
+	"name": "vercel-atproto-feed",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"publish": "node publish.js",
+		"develop": "vercel dev"
+	},
+	"keywords": [],
+	"author": "andrew sòlanto",
+	"license": "ISC",
+	"devDependencies": {
+		"prettier": "^3.4.2",
+		"vercel": "^39.2.5"
+	},
+	"dependencies": {
+		"@atproto/api": "^0.13.25"
+	},
+	"prettier": {
+		"useTabs": true,
+		"arrowParens": "avoid",
+		"embeddedLanguageFormatting": "auto",
+		"experimentalTernaries": true,
+		"htmlWhitespaceSensitivity": "css",
+		"semi": false,
+		"tabWidth": 4,
+		"trailingComma": "none",
+		"endOfLine": "lf"
+	}
+}
