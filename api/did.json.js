@@ -9,7 +9,7 @@ export function GET() {
 				{
 					id: "#bsky_fg",
 					type: "BskyFeedGenerator",
-					serviceEndpoint: `https://${process.env.VERCEL_URL}/api`
+					serviceEndpoint: `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}/api`
 				}
 			]
 		})
