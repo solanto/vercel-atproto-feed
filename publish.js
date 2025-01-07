@@ -11,7 +11,7 @@ async function run() {
 
 	await agent.com.atproto.repo.putRecord({
 		repo: agent.session?.did ?? "",
-		collection: ids.AppBskyFeedGenerator,
+		collection: "app.bsky.feed.describeFeedGenerator",
 		rkey: "test",
 		record: {
 			did,
