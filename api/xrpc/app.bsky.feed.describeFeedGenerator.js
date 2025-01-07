@@ -1,10 +1,10 @@
-import did from "../../DID"
+// import did from "../../DID"
 
-export function GET() {
-	return Response.json([
-		{
-			did,
-			feeds: [{ uri: `at://${did}/app.bsky.feed.generator/default` }]
-		}
-	])
-}
+// export function GET() {
+// 	return Response.json([
+// 		{
+// 			did,
+// 			feeds: [{ uri: `at://${did}/app.bsky.feed.generator/default` }]
+// 		}
+// 	])
+// }

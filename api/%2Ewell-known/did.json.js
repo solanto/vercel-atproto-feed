@@ -1,4 +1,4 @@
-import did from "../DID.js"
+import did from "../../DID.js"
 
 export function GET() {
 	return Response.json({
